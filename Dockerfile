@@ -1,4 +1,4 @@
-FROM nodejs:latest
+FROM node:latest
 
 ENV NPM_CONFIG_LOGLEVEL info
 RUN yarn install pm2
